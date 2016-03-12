@@ -1,0 +1,190 @@
+@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900|Droid+Sans:400,700");
+
+hr { background-color: #BCBEC0; height: 1px; border: 0; }
+
+.bgimage {
+	background-image: url('../images/fbline.png');	
+	backgroun-position: center center;
+	background-size: cover;
+	height: 90px;
+}
+
+.bgimage_1 {
+	background-image: url('../images/fbline.png');	
+	backgroun-position: center center;
+	background-size: cover;
+	height: 60px;
+}
+
+.bgimage_2 {
+	background-image: url('../images/background.jpeg');	
+	backgroun-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+
+.input {
+    padding-bottom: 2px;
+}
+
+.alert-gray {
+color: black;
+background-color: #F6F7F7;
+border-color: #B1B6BA;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Alegreya+Sans);
+}
+  
+.bg-black
+{
+  background-color: BLACK;
+}
+
+.profile {
+  
+}
+
+/* Profile sidebar */
+.profile-sidebar {  
+  background: #fff;
+}
+
+.profile-userpic img {
+  /* float: none; */
+  margin: 0 auto;
+  width: 180;
+  height: 180;
+
+  position: absolute;
+  margin-left: 50;
+  //margin-right: auto;
+  top :140;
+  left: 0;
+  right: 0;
+	
+  
+}
+    
+.profile-usermenu {
+  margin-top: 10px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #29527A;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+.bkground_color {
+	background-color: #E5E6E6;
+}
+
+/* Cover pic Content */
+.cover-pic-content {
+  padding: 2px;
+  background: #474747;
+  min-height: 300px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding-top: 40px;
+  min-height: 460px;
+}
+.profile-content_2 {
+  padding-top: 8px; 
+}
+/*Angular Overidding*/
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+.navbar { margin-bottom: 0 }
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #D8DFE6;
+}
+
+
+.allFriendList {
+  background: #EEE8D5;
+  width: 50%;
+  min-width: 300px;
+  max-width:350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 0 0 20px 20px;
+  opacity: .95;
+  z-index: 10;
+}
+
+.allFriendList ul {
+  margin: 0;
+  padding: 0;
+  background: #FDF6E3;
+}
+
+.allFriendList li {
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px dotted black;
+  opacity: .9;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.allFriendList a {
+  display: block;
+  text-decoration: none;
+}
+
+.allFriendList li:hover {
+  background: #FDF6E3;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

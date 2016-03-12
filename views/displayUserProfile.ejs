@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Facebook</title>
+<base href="/">
+
+<!-- JS -->
+<script src="libs/angular/angular.min.js"></script>
+<script src="libs/angular-route/angular-route.min.js"></script>
+
+<!-- ANGULAR CUSTOM -->
+
+<script src="js/app.js"></script>
+<script src="js/controllers/SearchController.js"></script>
+<script src="js/controllers/ProfileController.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body ng-app="facebook" ng-controller="ProfileController" class="bkground_color">
+	<div ng-controller="SearchController" ng-include = "'./views/partials/SearchBar.html'">		
+	</div>
+	<br/>
+	<div>
+		<div class="container-fluid">	
+				<!-- BLANK COLUMN -->			
+				<div class="col-md-2">
+				</div>
+				
+				<!-- POSTS COLUMN -->
+				<div class="col-md-5">
+				<div class = "cover-pic-content">	
+						<div class="profile-userpic">
+							<img  src="../images/avatar.png"> </img>							
+						</div>
+					<strong><i><h2 style="color:white; float:right;margin-top:250px; padding:10px"> <%= firstname %> <%= lastname %></h2></strong></i>	
+					</div>
+					
+					<!-- MENU -->					
+					<div class="profile-content">
+						<div ng-include="'./views/partials/menuForUser.html'"></div>
+					</div>								
+				</div>
+
+				<!-- BLANK COLUMN -->
+				<div class="col-md-3">					
+				</div>				
+				
+				<!-- NEWS FEED -->
+				<div class="col-md-2">					
+				</div>							
+				<br> 
+				<br>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
